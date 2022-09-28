@@ -1,0 +1,224 @@
+.header {
+  background-color: #f8f8f8;
+}
+
+.header__container {
+  max-width: 1120px;
+  height: 36px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__top-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__links {
+  display: flex;
+  align-items: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  color: #1d1d1b;
+}
+
+.header__link {
+  border: 0;
+  margin-right: 24px;
+  background-color: transparent;
+}
+
+.header__paps-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  color: #1d1d1b;
+  margin: 0 100px 0 12px;
+}
+
+.header__telefon {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  color: #1d1d1b;
+  margin-right: 20px;
+}
+
+.header__button {
+  display: flex;
+  width: 136px;
+  height: 48px;
+  border: 0;
+  background-color: #e0001b;
+  align-items: center;
+}
+
+.header__button-img {
+  margin-left: 10px;
+}
+
+.header__button-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  color: #ffffff;
+  margin: 0 0 0 16px;
+}
+
+.header__bottom-box {
+  display: flex;
+}
+
+.header__bottom-links {
+  display: flex;
+  background-color: #f8f8f8;
+  display: flex;
+  background-color: #f8f8f8;
+  width: 197px;
+  box-sizing: border-box;
+  padding: 0 16px;
+  align-items: center;
+  justify-content: center;
+}
+.header__bottom-links:hover {
+  background-color: #e0dada;
+}
+
+.header__bottom-links:first-of-type {
+  padding: 0 16px 0 24px;
+}
+
+.header__bottom-link {
+  display: flex;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  color: #1d1d1b;
+  margin: 0;
+}
+
+.header__bottom-link_red {
+  color: #e0001b;
+}
+
+.header__bottom-icon {
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+}
+
+.search {
+  display: inline-flex;
+  border: 1px solid #d4d4d4;
+  border-radius: 3px;
+  padding: 14px;
+  position: relative;
+  margin: 0 46px 0 56px;
+}
+
+.search-field {
+  width: 379px;
+  border: 0;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0.05em;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.header__search-button {
+  background-image: url(./images/lupa.svg);
+  width: 56px;
+  height: 49px;
+  background-color: #e0001b;
+  border: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  right: 0;
+  top: -0.5px;
+  border-radius: 0 3px 3px 0;
+}
+
+.header__basket {
+  width: 182px;
+  height: 48px;
+  display: flex;
+  border-radius: 3px;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 16px;
+  justify-content: space-between;
+}
+
+.header__basket:last-of-type {
+  padding-right: 0;
+}
+
+.header__basket_mini {
+  width: 130px;
+}
+
+.header__basket:hover {
+  background-color: #e0dada;
+}
+
+.header__basket-img {
+  width: 24px;
+  height: 19.63px;
+  margin-right: 12px;
+}
+
+.header__basket-text {
+  margin: 0;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  margin-right: 15px;
+}
+
+.header__notification-container {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.header__number {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 1px 6px;
+  border-radius: 50%;
+  background: #e0001b;
+  color: #ffffff;
+}
+
+.header__medium-box {
+  display: flex;
+  margin: 34px 0 28px;
+  align-items: center;
+}
+
+.header__logo {
+  width: 136px;
+  height: 48px;
+}
